@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercicios de HTML</h1>
+    <br>
+    <hr>
+    <a href="../index.html"><i>Voltar para  tela inicial</i></a>
+    <br>
+    <br>
+    <hr>
+    <h2>Tags de tabela</h2>
+    <hr>
+    <h3>Tags vistas no exercicio</h3>
+
+    <p>
+        Criação de formulario (form) <br>
+
+        definir uma entrada (input) <br>
+
+        definir o tipo de entrada (type) <br>
+
+        descrição do input (label) <br>
+
+        marca da agua dentro do type text para indicar o que deve ser feito (placeholder) <br>
+        deixar obrigatorio o preenchimento (required)
+    </p>
+        <p><b>caixa para selecionar algo (select)</b> <br>
+
+        selecionar algo dentro da caixa de seleção (option) <br>
+
+        deixar pré selecionado (selected) <br>
+
+        deixar impossivel de escolher (disabled) <br>
+        </p>
+        <p>
+            <b>campo de texto (textarea)</b>  <br>
+            definir a largura (cols) <br>
+            definir altura (rows) <br>
+        </p>
+        <p>
+            criar botão generico (button) <br>
+        </p>
+    <p>
+        <b>Tipos de type</b> <br>
+        criação de um campo de texto (text) <br>
+        criação de um campo de senha (password) <br>
+        criação de um campo de email (email) <br>
+        criação de um botao de enviar (submit) <br>
+    </p>
+        <p>criação de um botão que so e possivel apertar um (radio) <br>
+        <small>e necessario colocar o "name"</small>
+    </p> 
+        criação de botões que são individuais (checkbox) <br>
+    <p>
+
+    </p>
+  
+
+    <h3>Exemplos</h3>
+
+    <form>
+        <label for="campo_nome">Nome</label>
+        <input type="text" id="campo_nome" placeholder="Digite seu nome" required>
+
+        <br><br>
+
+        <label for="campo_email">Email</label>
+        <input type="email" id="campo_email" placeholder="Digite sua email" required>
+
+        <br><br>
+
+        <label for="campo_senha">Senha</label>
+        <input type="password" id="campo_senha" placeholder="Digite sua senha" required>
+
+        <br><br>
+
+        <h3>Animal de estimação</h3>
+
+        <input type="radio" id="cachorro" name="animal" value="Cachorro">
+        <label for="cachorro">Cachorro</label> 
+
+        <br><br>
+
+        <input type="radio" id="gato" name="animal" value="Gato">
+        <label for="gato">Gato</label>
+
+        <br><br>
+
+        <input type="radio" id="papagaio" name="animal" value="Papagaio">
+        <label for="papagaio">Papagaio</label> 
+        
+        <br><br>
+
+        <input type="radio" name="animal" id="piriquito" value="piriquito">
+        <label for="piriquito">Piriquito</label>
+
+        <br><br>
+        
+        <h3>O que você tem em casa?</h3>
+        <input type="checkbox" name="geladeira" id="geladeira">
+        <label for="geladeira">Geladeira</label>
+
+        <br><br>
+        
+        <input type="checkbox" name="microondas" id="microondas">
+        <label for="microondas">Microondas</label>
+
+        <br><br>
+
+        <input type="checkbox" name="computador" id="computador">
+        <label for="computador">Computador</label>
+
+        <br><br>
+
+        <h3>Escolha uma cor</h3>
+
+
+        <select>
+            <option selected disabled value="">Selecione uma cor</option>
+
+            <option value="vermelho">Vermelho</option>
+
+            <option value="azul">Azul</option>
+
+            <option value="verde">Verde</option>
+
+            <option value="amarelo">Amarelo</option>
+        </select>
+        <br><br>
+        <h3>Digite sua mensagem</h3>
+
+        <textarea cols="20" rows="10" placeholder="Digite o texto aqui"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Enviar formulário">
+        
+    </form>
+    <br>
+    <button>Botão de teste</button>
+</body>
+</html>
